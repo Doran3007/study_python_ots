@@ -35,6 +35,7 @@ class User(Base):
     def __repr__(self):
         return str(self)
 
+
 class Post(Base):
     __tablename__ = "posts"
     id = Column(Integer, primary_key=True)
